@@ -6,9 +6,9 @@
 
 * [Getting Started](setup/getting-started.md)
 * [Installer](setup/installer.md)
+* [Docker](setup/docker.md)
 * [Manual](setup/manual.md)
 * [Source](setup/source.md)
-* [Docker](setup/docker.md)
 
 ## Configuration
 
