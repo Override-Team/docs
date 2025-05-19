@@ -8,7 +8,7 @@ icon: docker
 The image itself, that it provided on [docker hub](https://hub.docker.com/repository/docker/vxrpenter/scptoolsbot) can run without a compose file, but will not work, due to the missing configuration bind. You have to download the compose config, as well as the `.env` to run the bot.
 {% endhint %}
 
-You can just download the `docker-compose.yml` and `.env` file and run docker compose to start up the image.If you want to change the bind location of the configs, go into the `.env` file and change the location to whatever you like.
+You can just download the `docker-compose.yml` and `.env` file and run docker compose to start up the image. If you want to change the bind location of the configs, go into the `.env` file and change the location to whatever you like.
 
 ## Linux
 

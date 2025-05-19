@@ -4,7 +4,7 @@ icon: java
 
 # Manual
 
-You can always head to the latest release and download the `.jar` that contains the bot. Just make sure you have java 22 or higher installed and you are good to go.
+You can always head to the [latest release](https://github.com/Vxrpenter/SCPToolsBot/releases) and download the `.jar` that contains the bot. Just make sure you have java 22 or higher installed and you are good to go.
 
 ## Linux
 
