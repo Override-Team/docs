@@ -1,0 +1,6 @@
+---
+icon: ticket
+---
+
+# Tickets
+
