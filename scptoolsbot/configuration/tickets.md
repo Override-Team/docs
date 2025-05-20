@@ -15,13 +15,13 @@ layout:
 
 # Tickets
 
-The bots ticket system that is built for scp:sl
+The bots ticket system that is built specifically for SCP:SL
 
 {% tabs %}
 {% tab title="Settings" %}
 ## Settings
 
-The general settings for tickets
+The general settings for the built in ticket system
 
 ```yaml
 settings:
