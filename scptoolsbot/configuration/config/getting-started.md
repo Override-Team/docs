@@ -4,7 +4,7 @@ icon: power-off
 
 # Getting Started
 
-This is the most standard configurstion, conisting of token, secret, language, updating etc
+This is the most standard configuration, consisting of token, secret, language, updating etc
 
 {% tabs fullWidth="false" %}
 {% tab title="Tokens" %}
@@ -20,7 +20,11 @@ guild_id: ""
 ```
 {% endtab %}
 
-{% tab title="Translation" %}
+{% tab title="Language" %}
+## Language
+
+
+
 
 {% endtab %}
 
