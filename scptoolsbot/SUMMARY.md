@@ -33,6 +33,21 @@
 
 * [Getting Started](commands/getting-started.md)
 
+***
+
+* [Bot](bot/README.md)
+  * [Help](bot/help.md)
+  * [Template](bot/template.md)
+  * [Verify](bot/verify.md)
+  * [Notice of Departure](bot/notice-of-departure.md)
+  * [Regulars](bot/regulars.md)
+  * [Settings](bot/settings.md)
+  * [Application](bot/application.md)
+* [Status Bots](status-bots/README.md)
+  * [Status](status-bots/status.md)
+  * [Playerlist](status-bots/playerlist.md)
+  * [Template](status-bots/template.md)
+
 ## Refs
 
 * [Github](https://github.com/Vxrpenter/SCPToolsBot)
