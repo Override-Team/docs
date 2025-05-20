@@ -17,7 +17,7 @@ layout:
 
 Regulars provide an easy and reliable way to automatically give players roles based on playtime or xp earned. Regulars are created in the `./SCPToolsBot/regulars/`, you can find the folder structure down below:&#x20;
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Configuration
 
