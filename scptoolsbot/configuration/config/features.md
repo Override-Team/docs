@@ -46,7 +46,7 @@ Determines if the verify feature is active
 
 <summary>OAuth Link</summary>
 
-This is the link users will be prompted to click when verifying. To activate OAuth for your application, head to the discord developer portal. Head to the OAuth section and follow these steps:
+This is the link users will be prompted to click when verifying. To activate OAuth for your application, head to the [discord developer portal](https://discord.com/developers/applications). Head to the OAuth section and follow these steps:
 
 1. Enter the redirect you entered on [webserver setup](webserver.md).&#x20;
 2. Click on `identify` and `connections`
