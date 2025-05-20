@@ -25,6 +25,10 @@
   * [Commands](configuration/extra/commands.md)
   * [Launch Configuration](configuration/extra/launch-configuration.md)
 
+## Translation
+
+* [Getting Started](translation/getting-started.md)
+
 ## Refs
 
 * [Github](https://github.com/Vxrpenter/SCPToolsBot)
