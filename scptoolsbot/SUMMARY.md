@@ -21,7 +21,9 @@
 * [Status Bots](configuration/status-bots.md)
 * [Tickets](configuration/tickets.md)
 * [Regulars](configuration/regulars.md)
-* [Extra](configuration/extra.md)
+* [Extra](configuration/extra/README.md)
+  * [Commands](configuration/extra/commands.md)
+  * [Launch Configuration](configuration/extra/launch-configuration.md)
 
 ## Refs
 
