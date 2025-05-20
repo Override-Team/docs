@@ -64,9 +64,9 @@ The types (roles/positions) of application that users are able to send
 application_types: [
   {
     # The name of the role
-    name: "Supporter",
+    name: "",
     # The role description, meaning their supposed work in the team
-    description: "Helps users ingame and handles reports",
+    description: "",
     # The roles emoji that will be shown in the list of applicable roles
     emoji: "",
     #  The roles id, meaning the discord role itself
@@ -129,10 +129,10 @@ The types of tickets that can be created, each with a different purpose and some
 types: [
   {
     # The name of the ticket type
-    name: "General",
+    name: "",
     # ** WARNING ** Don't change this as it will change how the bot defines
     # the type defining the ticket in the code
-    type: "support::GENERAL",
+    type: "",
     # The roles that will be added to the ticket once it is created
     roles: [ ],
     # The roles that can interact with the tickets log
