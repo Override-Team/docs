@@ -12,7 +12,12 @@
 
 ## Configuration
 
-* [Config](configuration/config.md)
+* [Config](configuration/config/README.md)
+  * [Getting Started](configuration/config/getting-started.md)
+  * [Database](configuration/config/database.md)
+  * [Webserver](configuration/config/webserver.md)
+  * [Integration](configuration/config/integration.md)
+  * [Features](configuration/config/features.md)
 * [Status Bots](configuration/status-bots.md)
 * [Tickets](configuration/tickets.md)
 * [Regulars](configuration/regulars.md)
