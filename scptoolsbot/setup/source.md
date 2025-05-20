@@ -6,6 +6,8 @@ icon: github
 
 When you want the latest version that is available not even for release you can build from source. This means that you will need to clone the GitHub repository and compile it to a `.jar` file. You can find the build in the `/build/libs/` folder.
 
+{% tabs %}
+{% tab title="Linux" %}
 ## Linux
 
 You can safely remove all repository files after copying your build.
@@ -18,7 +20,9 @@ cd SCPToolsBot
 chmod +x gradlew
 ./gradlew shadowjar
 ```
+{% endtab %}
 
+{% tab title="Windows" %}
 ## Windows
 
 {% hint style="warning" %}
@@ -32,7 +36,9 @@ cd SCPToolsBot
 
 ./gradlew shadowjar
 ```
+{% endtab %}
 
+{% tab title="MacOS" %}
 ## MacOS
 
 {% hint style="warning" %}
@@ -47,3 +53,5 @@ cd SCPToolsBot
 chmod +x gradlew
 ./gradlew shadowjar
 ```
+{% endtab %}
+{% endtabs %}

@@ -10,6 +10,8 @@ The image itself, that it provided on [docker hub](https://hub.docker.com/reposi
 
 You can just download the `docker-compose.yml` and `.env` file and run docker compose to start up the image. If you want to change the bind location of the configs, go into the `.env` file and change the location to whatever you like.
 
+{% tabs %}
+{% tab title="Linux" %}
 ## Linux
 
 Make sure you have docker, as well as docker compose installed on your system. If docker is not running, activate it with `sudo systemctl start docker`
@@ -24,7 +26,9 @@ curl -L https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/.env
 
 sudo docker compose up
 </code></pre>
+{% endtab %}
 
+{% tab title="Windows" %}
 ## Windows
 
 {% hint style="warning" %}
@@ -42,7 +46,9 @@ iwr -outf .env https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/.e
 
 docker compose up
 ```
+{% endtab %}
 
+{% tab title="MacOS" %}
 ## MacOS
 
 {% hint style="warning" %}
@@ -60,6 +66,8 @@ curl -L https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/.env
 
 sudo docker compose up
 ```
+{% endtab %}
+{% endtabs %}
 
 ***
 
