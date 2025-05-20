@@ -29,6 +29,10 @@
 
 * [Getting Started](translation/getting-started.md)
 
+## Commands
+
+* [Getting Started](commands/getting-started.md)
+
 ## Refs
 
 * [Github](https://github.com/Vxrpenter/SCPToolsBot)

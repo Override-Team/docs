@@ -102,7 +102,7 @@ Determines if the current server status (online/offline/unreachable) should be p
 Only works if `post_server_status` is active
 {% endhint %}
 
-The channel in which server status messages will be posted
+The id of the channel which server status messages will be posted in
 
 </details>
 
@@ -260,13 +260,3 @@ How often the bot retries after marking the server as offline/unreachable
 </details>
 {% endtab %}
 {% endtabs %}
-
-<details>
-
-<summary></summary>
-
-
-
-</details>
-
-h
