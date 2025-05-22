@@ -15,7 +15,7 @@ layout:
 
 # CedMod Api
 
-These are all endpoints in the CedMod api and their current state in the project.
+These are all endpoints in the `CedMod api` and their current state in the project.
 
 ### Api
 

@@ -15,7 +15,7 @@ layout:
 
 # Scplist Api
 
-These are all endpoints in the Scplist api and their current state in the project.
+These are all endpoints in the `Scplist api` and their current state in the project.
 
 ### Default
 

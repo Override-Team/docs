@@ -15,7 +15,7 @@ layout:
 
 # Secretlab Api
 
-These are all endpoints in the Secretlab api and their current state in the project.
+These are all endpoints in the `Secretlab api` and their current state in the project.
 
 ### Default
 

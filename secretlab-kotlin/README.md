@@ -15,6 +15,8 @@ layout:
 
 # SecretLab Kotlin
 
+[![](https://img.shields.io/github/v/release/Vxrpenter/SecretLab-Kotlin?include_prereleases\&logo=github\&logoColor=black\&logoSize=amg\&labelColor=333834\&sort=date\&display_name=tag\&style=for-the-badge\&label=LATEST%20RELEASE\&color=green)](https://github.com/Vxrpenter/SecretLab-Kotlin/releases) [![](https://img.shields.io/maven-central/v/io.github.vxrpenter/secretlab-kotlin?style=for-the-badge\&logo=apache\&logoColor=red\&logoSize=amg\&labelColor=333834\&color=red)](https://central.sonatype.com/artifact/io.github.vxrpenter/secretlab-kotlin)&#x20;
+
 {% hint style="warning" %}
 Currently endpoint integration is still not finished
 {% endhint %}
