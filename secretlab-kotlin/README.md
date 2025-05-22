@@ -55,11 +55,11 @@ dependencies {
 
 This is a short overview of all implemented api's. You can learn more about each by clicking on the link in the endpoints tab. It will present you with all endpoints information and their implementation state.
 
-| Api                   | Implementation Begon | Fully Implemented    | link                         | Endpoints                                                |
-| --------------------- | -------------------- | -------------------- | ---------------------------- | -------------------------------------------------------- |
-| Secret Laboratory Api | :white\_check\_mark: | :white\_check\_mark: | https://api.scpslgame.com/   | [secretlab-api.md](endpoints/secretlab-api.md "mention") |
-| Cedmod Api            | :white\_check\_mark: | :x:                  | `Only available on instance` | [cedmod-api.md](endpoints/cedmod-api.md "mention")       |
-| Scplist Api           | :white\_check\_mark: | :white\_check\_mark: | https://scplist.kr/api       | [scplist-api.md](endpoints/scplist-api.md "mention")     |
+| Api                   | Implementation Begon | Completed            | link                         | Usage                                                | Endpoints                                                |
+| --------------------- | -------------------- | -------------------- | ---------------------------- | ---------------------------------------------------- | -------------------------------------------------------- |
+| Secret Laboratory Api | :white\_check\_mark: | :white\_check\_mark: | https://api.scpslgame.com/   | [secretlab-api.md](usage/secretlab-api.md "mention") | [secretlab-api.md](endpoints/secretlab-api.md "mention") |
+| Cedmod Api            | :white\_check\_mark: | :x:                  | `Only available on instance` | [cedmod-api.md](usage/cedmod-api.md "mention")       | [cedmod-api.md](endpoints/cedmod-api.md "mention")       |
+| Scplist Api           | :white\_check\_mark: | :white\_check\_mark: | https://scplist.kr/api       | [scplist-api.md](usage/scplist-api.md "mention")     | [scplist-api.md](endpoints/scplist-api.md "mention")     |
 
 ***
 

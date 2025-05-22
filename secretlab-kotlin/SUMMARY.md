@@ -2,6 +2,12 @@
 
 * [SecretLab Kotlin](README.md)
 
+## Usage
+
+* [Secretlab Api](usage/secretlab-api.md)
+* [CedMod Api](usage/cedmod-api.md)
+* [Scplist Api](usage/scplist-api.md)
+
 ## Endpoints
 
 * [Secretlab Api](endpoints/secretlab-api.md)
