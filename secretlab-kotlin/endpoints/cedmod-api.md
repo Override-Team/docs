@@ -34,48 +34,48 @@ These are all endpoints in the CedMod api and their current state in the project
 | ------------------------------------------------------------------------------------ | ------------------------------- | --------------------- | -------------------- | -------------------- | ---------------------- |
 | ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Appeal/GetBans`           | :x:                   | :x:                  | :x:                  | Not Implemented        |
 | ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Appeal/Submit`            | :x:                   | :x:                  | :x:                  | Not Implemented        |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Appeal/Query`             | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Appeal/{appealId}/Handle` | :white\_check\_mark:  | :white\_check\_mark: | :white\_check\_mark: | 3.4.18                 |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Appeal/Query`             | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Appeal/{appealId}/Handle` | :white\_check\_mark:  | :white\_check\_mark: | :white\_check\_mark: | `0.3.0`                |
 
 ### AuditLogsController
 
 | Type                                                                                 | Api Endpoint          | Non Useronly Endpoint | Implementation | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | --------------------- | --------------------- | -------------- | ------ | ---------------------- |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/AuditLog/Query` | :grey\_question:      | :x:            | :x:    | 3.4.18                 |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/AuditLog/Query` | :grey\_question:      | :x:            | :x:    | `0.3.0`                |
 
 ### Ban
 
 | Type                                                                                 | Api Endpoint                   | Non Useronly Endpoint | Implementation       | Tested               | Implemented on Version |
 | ------------------------------------------------------------------------------------ | ------------------------------ | --------------------- | -------------------- | -------------------- | ---------------------- |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/AppealState` | :white\_check\_mark:  | :white\_check\_mark: | :white\_check\_mark: | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/Bypassable`  | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/Duration`    | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/Reason`      | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Ban/{banId}`             | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Ban/Issue`               | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/api/Ban/Query`               | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | 3.4.18                 |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/AppealState` | :white\_check\_mark:  | :white\_check\_mark: | :white\_check\_mark: | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/Bypassable`  | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/Duration`    | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Ban/{banId}/Reason`      | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Ban/{banId}`             | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Ban/Issue`               | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/api/Ban/Query`               | :white\_check\_mark:  | :white\_check\_mark: | :x:                  | `0.3.0`                |
 
 ### Banlist
 
 | Type                                                                                 | Api Endpoint             | Non Useronly Endpoint | Implementation       | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | ------------------------ | --------------------- | -------------------- | ------ | ---------------------- |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Banlist/Query`     | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Banlist/{id}`      | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/797e682e-896c-45a6-8710-67baf0caf424) | `/Api/Banlist/{id}/{id}` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.18                 |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Banlist/Query`     | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Banlist/{id}`      | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/797e682e-896c-45a6-8710-67baf0caf424) | `/Api/Banlist/{id}/{id}` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 
 ### BanLog
 
 | Type                                                                                 | Api Endpoint          | Non Useronly Endpoint | Implementation       | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | --------------------- | --------------------- | -------------------- | ------ | ---------------------- |
 | ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/BanLog/User`    | :x:                   | :x:                  | :x:    | Not Implemented        |
-| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/BanLog/{banId}` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.18                 |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Changelog/Get`  | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.18                 |
+| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/BanLog/{banId}` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Changelog/Get`  | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 
 ### Changelog
 
 | Type                                                                                 | Api Endpoint         | Non Useronly Endpoint | Implementation       | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | -------------------- | --------------------- | -------------------- | ------ | ---------------------- |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Changelog/Get` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.18                 |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Changelog/Get` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 
 ### Config
 
@@ -96,7 +96,7 @@ These are all endpoints in the CedMod api and their current state in the project
 
 | Type                                                                                 | Api Endpoint           | Non Useronly Endpoint | Implementation       | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | ---------------------- | --------------------- | -------------------- | ------ | ---------------------- |
-| ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Feedback/Submit` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
+| ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Feedback/Submit` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 
 ### Instance
 
@@ -121,20 +121,20 @@ These are all endpoints in the CedMod api and their current state in the project
 
 | Type                                                                                 | Api Endpoint                 | Non Useronly Endpoint | Implementation       | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | ---------------------------- | --------------------- | -------------------- | ------ | ---------------------- |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Mute/{banId}/Type`     | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Mute/{banId}/Duration` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
-| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Mute/{banId}/Reason`   | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
-| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Mute/{banId}`          | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
-| ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Mute/Issue`            | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Mute/Query`            | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Mute/{banId}/Type`     | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Mute/{banId}/Duration` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/4067d98b-db32-4b04-b284-7999075bb687) | `/Api/Mute/{banId}/Reason`   | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/Mute/{banId}`          | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/a8e2183e-d2be-4188-9837-190b8d1dd020) | `/Api/Mute/Issue`            | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/Mute/Query`            | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 
 ### MuteLog
 
 | Type                                                                                 | Api Endpoint           | Non Useronly Endpoint | Implementation       | Tested | Implemented on Version |
 | ------------------------------------------------------------------------------------ | ---------------------- | --------------------- | -------------------- | ------ | ---------------------- |
-| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/MuteLog/{banId}` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
+| ![](https://github.com/user-attachments/assets/639a0a7d-cdb3-43ae-9957-cb92ad322fbc) | `/Api/MuteLog/{banId}` | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 | ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/MuteLog/User`    | :x:                   | :x:                  | :x:    | Not Implemented        |
-| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/MuteLog/Query`   | :white\_check\_mark:  | :white\_check\_mark: | :x:    | 3.4.14                 |
+| ![](https://github.com/user-attachments/assets/a6e32603-d14e-4349-8858-ec892db67c39) | `/Api/MuteLog/Query`   | :white\_check\_mark:  | :white\_check\_mark: | :x:    | `0.3.0`                |
 
 ### Permissions
 
