@@ -15,6 +15,8 @@ layout:
 
 # ScpToolsBot
 
+[![](https://img.shields.io/badge/Discord-%235865F2.svg?\&logo=discord\&logoColor=white)](https://discord.gg/cAXU9Y7T9a)
+
 ScpToolsBot is an application to enhance your Scp Secret Laboratory server by providing quality-of-life features in combination with moderation and team management tools. It also integrates with plugins like CedMod to build on already existing infrastructure and to use features they offer.
 
 ## Quick Setup
