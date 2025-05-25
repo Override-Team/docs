@@ -67,4 +67,5 @@ Navigate to `./SCPToolsBot/configs/config.yml` and change load\_translation to y
 | `&reset&`         | <div><figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>  | Reset all colors, bold and underline                |
 | `&underline&`     | <div><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div> | Apply underline                                     |
 | `&filler&`        | ---                                                                                                       | Fills up a whole row of an embed                    |
+| `&singlefiller&`  | ---                                                                                                       | Adds a single empty character                       |
 | `&filler<count>&` | ---                                                                                                       | Replace `<count>` with a number of blank characters |
