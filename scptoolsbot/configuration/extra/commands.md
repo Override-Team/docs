@@ -51,15 +51,18 @@ All commands that the bot can execute are defined in this global config. They ca
           "name": "",
           "description": "",
           "options": [
-        {
-          "type": "",
-          "name": "",
-          "description": "",
-          "isRequired": true,
-          "choices": [
             {
+              "inherit": "",
               "name": "",
-              "id": ""
+              "description": "",
+              "options": [
+                {
+                  "type": "",
+                  "name": "",
+                  "description": "",
+                  "isRequired": true
+                }
+              ]
             }
           ]
         }
