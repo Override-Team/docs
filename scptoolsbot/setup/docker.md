@@ -25,10 +25,11 @@ You can just download the `docker-compose.yml` and `.env` file and run docker co
 {% tab title="Linux" %}
 ## Linux
 
-Make sure you have docker, as well as docker compose installed on your system. If docker is not running, activate it with `sudo systemctl start docker`
+Make sure you have docker, as well as docker compose installed on your system. If docker is not running, activate it with `sudo systemctl start docker`&#x20;
 
-<pre class="language-sh"><code class="lang-sh"><strong>mkdir ScpToolsBot
-</strong>
+```sh
+mkdir ScpToolsBot
+
 cd ScpToolsBot
 
 curl -L https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/docker-compose.yml
@@ -36,7 +37,7 @@ curl -L https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/docker-co
 curl -L https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/.env
 
 sudo docker compose up
-</code></pre>
+```
 {% endtab %}
 
 {% tab title="Windows" %}
