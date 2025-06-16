@@ -27,6 +27,7 @@ Not entering the token, secret or guild id can result in crashes/immediate shutd
 
 These are values that are essential for the bot's functionality, they can not be missing/aren't optional
 
+{% code lineNumbers="true" %}
 ```yaml
 # The token of your bot application, create one here https://discord.com/developers/
 token: ""
@@ -35,6 +36,7 @@ client_secret: ""
 # Your server ID, you can get it by activating discord developer mode and right-clicking your server
 guild_id: ""
 ```
+{% endcode %}
 
 <details>
 
@@ -75,12 +77,14 @@ Only languages which translation files are in the `/ScpToolsBot/lang/` can be en
 
 The langage changes all text that is displayed by the bot to the users. Log messages are not affected from this.
 
+{% code lineNumbers="true" %}
 ```yaml
 # Which language should the bot use?
 #Choose from these supported languages or duplicate one of the translation files and change it yourself
 # available translations: ["en_US", "de_DE"]
 load_translation: "en_US"
 ```
+{% endcode %}
 
 You can easily replace the en\_US with any language that is avaidible. Avaidible languages are:
 
@@ -88,8 +92,9 @@ You can easily replace the en\_US with any language that is avaidible. Avaidible
 
 <summary>Languages</summary>
 
-* `en_US` - (US) English version of the bot
-* `de_DE` - (DE) German version of the bot
+`en_US` - (US) English version of the bot
+
+`de_DE` - (DE) German version of the bot
 
 </details>
 
@@ -109,6 +114,7 @@ The advanced debug option can spam your console, to make reading live logs, almo
 
 These are the avaidible debug modes. They are supposed to be used for finding errors in the configurations or the bot itself.
 
+{% code lineNumbers="true" %}
 ```yaml
 # Activates debug logging, which gives you much more information on what the bot is doing.
 debug: false
@@ -116,6 +122,7 @@ debug: false
 #Displays all available information
 advanced_debug: false
 ```
+{% endcode %}
 
 <details>
 
@@ -137,6 +144,7 @@ This shows so called `TRACER` logs. They contain all information about the bot's
 
 This regulates which types of updates will be shown to users. Note that the update checker itself cannot be deactivated, just regulated.
 
+{% code lineNumbers="true" %}
 ```yaml
 # Settings for the update checker
 updates:
@@ -145,6 +153,7 @@ updates:
   # Activate to ignore all versions that contain the alpha tag
   ignore_alpha: true
 ```
+{% endcode %}
 
 <details>
 
@@ -170,12 +179,14 @@ All updates that have `alpha` in their tag will be ignored by the update checker
 The default activity displays `PLAYING /help`. The /help command can only be used by administrators, making this activity misleading in a way. Remove it to be sure prevent frustration.
 {% endhint %}
 
+{% code lineNumbers="true" %}
 ```yaml
 # The activity type of the bot, choose from the available list: [COMPETING, CUSTOM_STATUS, LISTENING, PLAYING, WATCHING]
 activity_type: "PLAYING"
 # The text that is being displayed in the activity
 activity_content: "/help"
 ```
+{% endcode %}
 
 <details>
 
