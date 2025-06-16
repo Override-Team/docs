@@ -25,6 +25,8 @@ These are all currently available installation methods for ScpTools.
 {% tab title="Installer" %}
 #### Installer (Linux)
 
+The installer is the recommended way to install the bot. It is easy to use and allows for easy setup using the onboard configurator. It's only downside is the Linux exclusivity.
+
 {% content-ref url="installer.md" %}
 [installer.md](installer.md)
 {% endcontent-ref %}
@@ -33,13 +35,17 @@ These are all currently available installation methods for ScpTools.
 {% tab title="Docker" %}
 #### Docker (Linux, Windows, MacOS)
 
+When the installer cannot be used for installation, or you don't want to install java onto your machine, you can run the bot in a docker container.
+
 {% content-ref url="docker.md" %}
 [docker.md](docker.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Manual" %}
-#### Manuaöl (Linux, Windows, MacOS)
+#### Manual (Linux, Windows, MacOS)
+
+A basic way to install the bot. You can just download the `.jar` from the latest release and then run it on a server with the right java version (**22**) installed.
 
 {% content-ref url="manual.md" %}
 [manual.md](manual.md)
@@ -48,6 +54,8 @@ These are all currently available installation methods for ScpTools.
 
 {% tab title="Source" %}
 #### Source (Linux, Windows, MacOS)
+
+If you want the latest version of the bot you can compile it from source. This is a bit more complicated and requires some technical knowledge.
 
 {% content-ref url="source.md" %}
 [source.md](source.md)
