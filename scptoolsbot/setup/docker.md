@@ -85,11 +85,14 @@ sudo docker compose up
 
 If you want to build the image yourself you have to clone the repository and change the `docker-compose.yml` to this.
 
-<pre class="language-yml" data-line-numbers><code class="lang-yml">services:
+{% code lineNumbers="true" %}
+```yml
+services:
   bot:
     build: .
     ports:
       - "8080:8080"
     volumes:
-<strong>      - ${CONFIG_PATH}/SCPToolsBot/:/bot/SCPToolsBot/
-</strong></code></pre>
+      - ${CONFIG_PATH}/SCPToolsBot/:/bot/SCPToolsBot/
+```
+{% endcode %}
