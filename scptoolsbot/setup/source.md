@@ -45,7 +45,7 @@ git clone https://github.com/Vxrpenter/SCPToolsBot
 
 cd SCPToolsBot
 
-./gradlew shadowjar
+gradlew shadowjar
 ```
 {% endtab %}
 

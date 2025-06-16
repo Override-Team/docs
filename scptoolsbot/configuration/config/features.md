@@ -79,11 +79,12 @@ The id of the channel you want to send verify logs to.
 
 This feature let's staff members define a time period in which they are not available. This period will be regularly checked and admin's will be notified if the time runs out.
 
-{% code lineNumbers="true" %}
 ```yaml
 notice_of_departure:
   # Activates the notice of departure feature
   active: false
+  # The formatting that is used to format the notice of departure dates
+  date_formatting: "dd.MM.yyyy"
   # Which channel should the form be sent to, to be accepted by moderators?
   decision_channel_id: ""
   # Which channel should the notice messages be sent to?
@@ -95,13 +96,24 @@ notice_of_departure:
   # The rate at that the notices are checked.
   check_rate: 1
 ```
-{% endcode %}
 
 <details>
 
 <summary>Active</summary>
 
 Determines if notice of departures is active
+
+</details>
+
+<details>
+
+<summary>Date Formatting</summary>
+
+{% hint style="warning" %}
+Always include **dd**, **MM** and **yyyy** in your custom formatter e.g. **dd**-**MM**-**yyyy**, **dd**/**MM/yyyy** or **dd**,**MM**,**yyyy**
+{% endhint %}
+
+Define a custom formatter for dates.
 
 </details>
 
@@ -206,3 +218,11 @@ An array consisting of the folders that should be loaded
 </details>
 {% endtab %}
 {% endtabs %}
+
+<details>
+
+<summary>Active</summary>
+
+Determines if notice of departures is active
+
+</details>
