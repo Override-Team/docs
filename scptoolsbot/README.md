@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# ScpToolsBot
+# SCPToolsBot
 
 [![](https://img.shields.io/badge/Discord-%235865F2.svg?\&logo=discord\&logoColor=white)](https://discord.gg/cAXU9Y7T9a)
 
@@ -44,10 +44,11 @@ When a new build is released, it might take some time until the wiki is updated
 
 Changelogs only contain the most important information, and small one-line changes will not be included if they don't have a major effect on stability and/or performance
 
-## Special Thanks
+### Special Thanks
 
-* Special thanks goes to [ced777ric](https://github.com/ced777ric) who helped me a lot with the CedMod-Api integration, especially when trying to find the specific endpoints use case or usability
+* Special thanks goes to [ced777ric](https://github.com/ced777ric) who helped me a lot with the cedmod api integration, especially when trying to find the specific endpoints use case or usability
 * Also to [SeekEDstroy](https://github.com/SeekEDstroy) for help with user id linking and for pointing out some bugs
+* A big thank you goes [Kaeseekuchen](https://github.com/Kaeseekuchen) for providing many feature ideas, real server data and enviorments for testing and feature improvements
 
 ***
 

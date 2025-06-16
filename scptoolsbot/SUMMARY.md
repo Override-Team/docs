@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ScpToolsBot](README.md)
+* [SCPToolsBot](README.md)
 
 ## Setup
 
