@@ -29,7 +29,7 @@ SecretLab Kotlin is a SCP: Secret Laboratory api wrapper. It includes compatibil
 {% tab title="Gradle (Kotlin)" %}
 ```kotlin
 dependencies {
-  implementation("io.github.vxrpenter:secretlab-kotlin:0.4.0")
+  implementation("io.github.vxrpenter:secretlab-kotlin:0.4.3")
 }
 ```
 {% endtab %}
@@ -37,7 +37,7 @@ dependencies {
 {% tab title="Gradle (Groovy)" %}
 ```groovy
 dependencies {
-  implementation 'io.github.vxrpenter:secretlab-kotlin:0.4.0'
+  implementation 'io.github.vxrpenter:secretlab-kotlin:0.4.3'
 }
 ```
 {% endtab %}
@@ -47,7 +47,7 @@ dependencies {
 <dependency>
     <groupId>io.github.vxrpenter</groupId>
     <artifactId>secretlab-kotlin</artifactId>
-    <version>0.4.0</version>
+    <version>0.4.3</version>
 </dependency>
 ```
 {% endtab %}
