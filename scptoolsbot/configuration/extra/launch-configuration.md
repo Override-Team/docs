@@ -51,7 +51,7 @@ Defines if entries that are missing from the config, or configured incorrectly s
 This is only an example for the main bot startup, you can find the whole configuration in /SCPToolsBot/configs/extra/launch-configuration.json
 {% endhint %}
 
-h
+The launch order is a list that defines in which order the bot's features/processes are started (top to bottom). It also defines if a process will be started/or the processes sections to be started.
 
 {% code lineNumbers="true" %}
 ```json
@@ -59,12 +59,11 @@ h
     {
       "id": "",
       "engage": true,
-      "separate_thread": false,
       "sections": [
         {
           "id": "",
           "engage": true,
-          "log_action": true
+          "logAction": true
         }
       ]
     }
@@ -87,18 +86,6 @@ The id of the process, all available Id's are:
 <summary>Engage</summary>
 
 Determines if the process should be engaged
-
-</details>
-
-<details>
-
-<summary>Separate Thread</summary>
-
-{% hint style="warning" %}
-Currently not implemented
-{% endhint %}
-
-Determines if the process should be started on a separate thread
 
 </details>
 
