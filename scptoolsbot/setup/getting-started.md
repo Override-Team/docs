@@ -86,11 +86,11 @@ guild_id: ""
 
 You can get 2 of these values from the official [Discord Developer Portal](https://discord.com/developers/applications). Create a bot application and then navigate to the `OAuth` and `Bot` sections. There you can find the buttons for resetting the applications `client secret` and `token`. Reset them, copy them and at last paste them into the config.
 
-![img](https://github.com/user-attachments/assets/8f0be2d6-29b9-4b71-bc9c-3fc829e59b0a) ![img](https://github.com/user-attachments/assets/1bdffa7c-2339-4a5b-ac1f-5816bc7165bf)
+![Client Secret Reset Button](https://github.com/user-attachments/assets/8f0be2d6-29b9-4b71-bc9c-3fc829e59b0a) ![Token Reset Button](https://github.com/user-attachments/assets/1bdffa7c-2339-4a5b-ac1f-5816bc7165bf)
 
 The last value, meaning your guild id is just your discord server id. You can easily retrieve it by activating developer mode in the settings (Settings --> Advanced --> Developer Mode) and then right-clicking on your server.
 
-Learn more about configuring on the [Config Page](broken-reference)
+_Learn more about configuring on the_ [_Configuration Page_](broken-reference)
 
 ### 2. Language
 
@@ -109,16 +109,19 @@ _Learn more on this topic on the_ [_Translation Page_](broken-reference)
 
 For some features you need to tweak the configs. Generally it is good to look into the config and search for the section containing the feature to look what they need.
 
-> \[!NOTE]\
-> The status bots and support system have their own seperate configs, located in the same folder as the `config.yml`
+{% hint style="info" %}
+The status bots and support system have their own separate configs, located in the same folder as the `config.yml`
+{% endhint %}
+
+_Learn more about this topic on the_ [Feature Page](../configuration/config/features.md)
 
 ### 4. Webserver and CedMod
 
-If you have CedMod installed on your server you might want to use the integrated CedMod link in SCPTools. There's also a small webserver implemented that can handle discord OAuth request.
+If you have CedMod installed on your server you might want to use the integrated CedMod link in SCPTools. There's also a small Webserver implemented that can handle discord OAuth request.
 
 #### CedMod
 
-If you want to activate CedMod, navigate to the CedMod section of the config and change `active` to `true`. You will need your instance url as well as an api key. This api key can only be obtained when asking CedMod staff directly, so head to their [discords support channel](https://discord.gg/rzAYbzCXRv) and request it.
+If you want to activate CedMod, navigate to the CedMod section of the config and change `active` to `true`. You will need your instance URL as well as an API key. This API key can only be obtained when asking CedMod staff directly, so head to their [discords support channel](https://discord.gg/rzAYbzCXRv) and request it.
 
 ```yaml
 cedmod:
@@ -131,20 +134,22 @@ cedmod:
   api_key: ""
 ```
 
+_Learn more about this topic on the_ [_Integration Page_](../configuration/config/integration.md)
+
 #### Webserver
 
-The webserver is a special feature that must be active for the `verify` and `regulars` feature. It handles Discord OAuth requests to link users steam and discord accounts. Follow the instructions in the config to activate it and make sure you configure your firewall correctly to filter requests.
+The Webserver is a special feature that must be active for the `verify` and `regulars` feature. It handles Discord OAuth requests to link users steam and discord accounts. Follow the instructions in the config to activate it and make sure you configure your firewall correctly to filter requests.
 
 ```yaml
-# ** WARNING ** For this setting to work, you need to activate the webserver.
-#The webserver is generally just a redirect to receive data from the discord OAuth Api, so it
-# should not interrupt any other web stuff running on your server.
-verify:
-  # This link can be obtained from the oauth section on the discord developer portal. First, enter the redirect you entered in the webserver section exactly
-  # as described here: <uri>:<port><redirect_uri>, e.g. http://localhost:80/auth/discord/redirect. After entering the redirect, click on save to proceed with the
-  # setup. You now have to scroll down to the 'OAuth2 URL Generator' where you need to click on 2 options, 'identify' and 'connections', after that scroll down
-  # and select your redirect for the redirect url. Now you can copy the generated url into your clipboard. Paste it in here.
-  oauth_link: ""
-  # Which channel should verify logs be sent to?
-  verify_log_channel: ""
+webserver:
+  # Should the webserver be launched? This feature is only used for regulars
+  active: false
+  # The port under which the webserver will be launched
+  port: 8080
+  # What uri to start the webserver under
+  redirect_uri: "/auth/discord/redirect"
+  # Where should the redirect be, include the full url e.g., https://localhost:80/auth/discord/redirect
+  uri: ""
 ```
+
+_Learn more about this topic on the_ [Webserver Page](../configuration/config/webserver.md)

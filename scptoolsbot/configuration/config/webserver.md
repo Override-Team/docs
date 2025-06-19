@@ -25,10 +25,8 @@ If you want to configure these features, look into:
 [features.md](features.md)
 {% endcontent-ref %}
 
-{% code lineNumbers="true" %}
-```yaml
-webserver:
-  # Should the webserver be launched? This feature is only used for regulars
+<pre class="language-yaml" data-line-numbers><code class="lang-yaml"><strong>webserver:
+</strong>  # Should the webserver be launched? This feature is only used for regulars
   active: false
   # The port under which the webserver will be launched
   port: 8080
@@ -36,8 +34,7 @@ webserver:
   redirect_uri: "/auth/discord/redirect"
   # Where should the redirect be, include the full url e.g., https://localhost:80/auth/discord/redirect
   uri: ""
-```
-{% endcode %}
+</code></pre>
 
 <details>
 
