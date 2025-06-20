@@ -48,6 +48,11 @@
   * [Playerlist](status-bots/playerlist.md)
   * [Template](status-bots/template.md)
 
+## Updates
+
+* [Updates](updates/updates/README.md)
+  * [Release v1.1.0](updates/updates/release-v1.1.0.md)
+
 ## Refs
 
 * [Github](https://github.com/Vxrpenter/SCPToolsBot)
