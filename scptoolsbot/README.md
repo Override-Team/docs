@@ -23,8 +23,9 @@ ScpToolsBot is an application to enhance your Scp Secret Laboratory server by pr
 
 Install the installer from the [latest release](https://github.com/Vxrpenter/SCPToolsBot/releases) or download it from the master branch:
 
-<pre class="language-sh"><code class="lang-sh"><strong>sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/installer.sh)"
-</strong></code></pre>
+```sh
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/Vxrpenter/SCPToolsBot/master/installer.sh)"
+```
 
 For more (detailed) installation methods, look into the setup guide:
 
