@@ -35,15 +35,9 @@ For more (detailed) installation methods, look into the setup guide:
 
 ## Build Information
 
-Full releases are marked as such in the release. If a release contains the `alpha` tag, it is experimental and features and more have not been tested fully.
+Full releases are marked as such in the release. If a release contains the `alpha` tag, it is experimental and features and more have not been tested.
 
 Releases containing the `beta` tag are mostly tested but could still be considered unstable.
-
-Releases will be marked as stable if they're thought to run well after testing. If a release is marked as unstable, it might not run well or produce bugs, for example, memory leaks
-
-When a new build is released, it might take some time until the wiki is updated
-
-Changelogs only contain the most important information, and small one-line changes will not be included if they don't have a major effect on stability and/or performance
 
 ### Special Thanks
 
